@@ -1,0 +1,498 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+
+/************** clearfix ***************/
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+/****************** box-sizing*****************/
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  }
+
+/****************** new css*****************/
+
+
+/********Homepage******/
+header {
+    font-family: cursive;
+    font-size: 100px;
+    color: goldenrod;
+    margin-left: 253px;
+}
+
+.body-index {
+    background-image: url(../images/pink%20sky.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    width: 1100px;
+    height: 1200px;
+}
+
+
+.mainpic {
+    background-image: url(../img/friends.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 700px;
+    height:450px;
+    border: 50px solid rgba(197, 207, 39, 0.5);
+    margin-top: 100px;
+}
+
+.logo {
+    background-image: url(../images/logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 300px;
+    height:300px;
+    position: absolute;
+    margin-right: 200px;
+    
+}
+
+nav{
+    
+    position: relative;
+    margin-top: 6%;
+    width: 100%;
+    height: 6%; 
+    margin-left: 500px;
+    margin-top: 00px;
+    z-index: 5;
+}
+nav li {
+    display: inline-block;
+    text-align: center; 
+    font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+    font-size: 22px;
+    width: 35.6%;
+    height: 100%;
+    padding: 2%;
+    margin-top: 3%;
+}
+nav li a {
+    text-decoration: none;
+    color:black;
+    background-color: white;
+    border-radius: 5px;
+    padding:5px;
+}
+
+
+.learnmore {
+    font-family: cursive;
+    font-size: 40px;
+    color: black;
+    margin-top: 340px;
+    margin-left: 150px;
+    
+ 
+   
+}
+
+.discoverstudents {
+    font-family: cursive;
+    font-size: 45px;
+    color: gold;
+    margin-top: -60px;
+    margin-left: 30px;
+    position: relative;
+}
+
+.container {
+    width: 700px;
+    height:500px;
+    margin-left: 325px;
+    margin-top: 75px;
+    position: absolute;
+}
+
+
+.facebook {
+    background-image: url(../images/facebook.png);
+    background-size: contain;
+    position:absolute;
+    width: 50px;
+    height:50px;
+    top: 20px;
+    left: 60px;
+}
+
+.instagram {
+    background-image:url(../images/instagram.png);
+    background-size:contain;
+    position:absolute;
+    width:50px;
+    height:50px;
+    top: 20px;
+}
+.twitter{
+    background-image: url(../images/twitter.png);
+    background-size:contain;
+    position:absolute;
+    width:50px;
+    height:50px;
+    top: 20px;
+    left: 120px;
+}
+
+.paragraph {
+    font-size: 25px;
+    margin-top: 750px;
+    margin-left: 400px;
+    color: gold;
+    
+}
+
+
+/******************contact**********************/
+
+
+
+h1 {
+    font-family: cursive;
+    font-size: 30px;
+    color: black;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    z-index: 5
+}
+
+
+
+
+.contact {
+    background-image: url(../images/contact.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:500px;
+    position: absolute;
+    top: 0px
+    
+}
+.pplworking {
+background-image: url(../images/people%20working.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+width:; 
+height:600px;
+margin-left: 300px;
+margin-top: 180px;
+
+}
+
+
+
+ tr, th, td {
+    color: black;
+    font-family: serif;
+    width:-0px;
+    border: 5px solid;
+    padding: 5px;
+}
+
+.table2 {
+margin-top: -1100px;
+margin-left: 500px;
+background-color: rgba(255, 255, 255, 0.9);
+width:419px;
+}
+
+
+
+form {
+    border: 2px solid black;
+    width: 200px;
+    margin-left: 40px;
+    font-family:fantasy;
+    margin-top: 50px
+    
+}
+
+input[type="text"]{
+    border-radius: 2px;
+    font-family: fantasy
+}
+
+input[type="submit"]{
+    background-color: black;
+    color: white;
+    font-family: fantasy;
+    
+}
+textarea{
+    height: 150px;
+}
+
+
+
+
+
+
+/***************************breakpoint*****************/
+
+@media screen and (max-width: 768px){
+    
+  /********Homepage******/
+header {
+    font-family: cursive;
+    font-size: 30px;
+    color: goldenrod;
+    margin-left: 100px;
+}
+
+.body-index {
+    background-image: url(../images/pink%20sky.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    width: 100%
+}
+
+
+.mainpic {
+    background-image: url(../images/friends.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;;
+    height:100%;
+    border: 50px solid rgba(197, 207, 39, 0.5);
+}
+
+.logo {
+    background-image: url(../images/logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+    height:200px;
+    position: absolute;
+    margin-right: 200px;
+    
+}
+
+nav{
+    
+    position: relative;
+    margin-top: 6%;
+    width: 400px;
+    height: 6%; 
+    margin-left: 300px;
+    margin-top: 00px;
+}
+nav li {
+    display: inline-block;
+    text-align: center; 
+    font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+    font-size: 22px;
+    width: 35.6%;
+    height: 100%;
+    padding: 2%;
+    margin-top: 3%;
+}
+nav li a {
+    text-decoration: none;
+    color:black;
+    background-color: white;
+    border-radius: 5px;
+    padding:5px;
+}
+
+
+.learnmore {
+    font-family: cursive;
+    font-size: 20px;
+    color: black;
+    width: 200px;
+    
+ 
+   
+}
+
+.discoverstudents {
+    font-family: cursive;
+    font-size: 20px;
+    color: gold;
+    position: relative;
+    top: 20px
+}
+
+.container {
+    width: 100%;
+    height:500px;
+    margin-left: 0;
+}
+
+
+.facebook {
+    background-image: url(../images/facebook.png);
+    background-size: contain;
+    position:absolute;
+    width: 20px;
+    height:20px;
+    top: 20px;
+    left: 30px;
+}
+
+.instagram {
+    background-image:url(../images/instagram.png);
+    background-size:contain;
+    position:absolute;
+    width:20px;
+    height:20px;
+    top: 20px;
+}
+.twitter{
+    background-image: url(../images/twitter.png);
+    background-size:contain;
+    position:absolute;
+    width:20px;
+    height:20px;
+    top: 20px;
+    left: 60px;
+}
+
+yacht {
+    background-image: url(../images/)
+}
+
+
+.col2 {
+    width:50%;
+    float: left;
+    height:100%;
+    
+}
+
+.img {
+    height: 100%;
+    width: 100%;;
+}
+
+h2 {
+    font-family: cursive;
+    font-size: 30px;
+    color: black;
+}
+
+/******************contact**********************/
+
+
+h1 {
+    font-family: cursive;
+    font-size: 30px;
+    color: black;
+    margin-top: 0px;
+    
+}
+
+
+
+
+.contact {
+    background-image: url(../images/contact.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:240px;
+    margin:0 auto;
+    margin-top: -940px;
+    
+}
+.pplworking {
+background-image: url(../images/people%20working.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+width:100%; 
+height:500px;
+    margin-left: 0;
+    position: relative;
+
+}
+
+ tr, th, td {
+    color: black;
+    font-family: serif;
+    width:-0px;
+    border: 5px solid;
+    padding: 5px;
+}
+
+.table2 {
+background-color: rgba(255, 255, 255, 0.9);
+width:419px;
+    position: absolute;
+    left: -340px;
+}
+
+
+
+form {
+    border: 2px solid black;
+    width: 200px;
+    margin-left: 40px;
+    font-family:fantasy;
+    position: absolute;
+    top: 500px;
+}
+
+input[type="text"]{
+    border-radius: 2px;
+    font-family: fantasy
+}
+
+input[type="submit"]{
+    background-color: black;
+    color: white;
+    font-family: fantasy;
+    
+}
+textarea{
+    height: 150px;
+}  
+}
+
