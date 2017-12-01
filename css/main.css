@@ -65,7 +65,7 @@ header {
 }
 
 .body-index {
-    background-image: url(../images/pink%20sky.jpg);
+    background-image: url(../img/pink%20sky.jpg);
     background-size: cover;
     background-repeat:no-repeat;
     width: 1100px;
@@ -153,7 +153,7 @@ nav li a {
 
 
 .facebook {
-    background-image: url(../images/facebook.png);
+    background-image: url(../img/facebook.png);
     background-size: contain;
     position:absolute;
     width: 50px;
@@ -163,7 +163,7 @@ nav li a {
 }
 
 .instagram {
-    background-image:url(../images/instagram.png);
+    background-image:url(../img/instagram.png);
     background-size:contain;
     position:absolute;
     width:50px;
@@ -171,7 +171,7 @@ nav li a {
     top: 20px;
 }
 .twitter{
-    background-image: url(../images/twitter.png);
+    background-image: url(../img/twitter.png);
     background-size:contain;
     position:absolute;
     width:50px;
@@ -207,7 +207,7 @@ h1 {
 
 
 .contact {
-    background-image: url(../images/contact.jpg);
+    background-image: url(../img/contact.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -217,7 +217,7 @@ h1 {
     
 }
 .pplworking {
-background-image: url(../images/people%20working.jpg);
+background-image: url(../img/people%20working.jpg);
 background-size: cover;
 background-repeat: no-repeat;
 width:; 
@@ -288,7 +288,7 @@ header {
 }
 
 .body-index {
-    background-image: url(../images/pink%20sky.jpg);
+    background-image: url(../img/pink%20sky.jpg);
     background-size: cover;
     background-repeat:no-repeat;
     width: 100%
@@ -296,7 +296,7 @@ header {
 
 
 .mainpic {
-    background-image: url(../images/friends.jpg);
+    background-image: url(../img/friends.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;;
@@ -305,7 +305,7 @@ header {
 }
 
 .logo {
-    background-image: url(../images/logo.png);
+    background-image: url(../img/logo.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 200px;
@@ -369,7 +369,7 @@ nav li a {
 
 
 .facebook {
-    background-image: url(../images/facebook.png);
+    background-image: url(../img/facebook.png);
     background-size: contain;
     position:absolute;
     width: 20px;
@@ -379,7 +379,7 @@ nav li a {
 }
 
 .instagram {
-    background-image:url(../images/instagram.png);
+    background-image:url(../img/instagram.png);
     background-size:contain;
     position:absolute;
     width:20px;
@@ -387,7 +387,7 @@ nav li a {
     top: 20px;
 }
 .twitter{
-    background-image: url(../images/twitter.png);
+    background-image: url(../img/twitter.png);
     background-size:contain;
     position:absolute;
     width:20px;
@@ -397,7 +397,7 @@ nav li a {
 }
 
 yacht {
-    background-image: url(../images/)
+    background-image: url(../img/)
 }
 
 
@@ -434,7 +434,7 @@ h1 {
 
 
 .contact {
-    background-image: url(../images/contact.jpg);
+    background-image: url(../img/contact.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -444,7 +444,7 @@ h1 {
     
 }
 .pplworking {
-background-image: url(../images/people%20working.jpg);
+background-image: url(../img/people%20working.jpg);
 background-size: cover;
 background-repeat: no-repeat;
 width:100%; 
